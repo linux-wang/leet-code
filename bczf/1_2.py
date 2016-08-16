@@ -32,3 +32,7 @@ if __name__ == '__main__':
 	s2 = 'bca'
 	print is_contain_one(s1, s2)
 	print is_contain_two(s1, s2)
+
+
+# 变位词
+# 兄弟单词：解决方式就是使用set，然后判断两个set是否相等
