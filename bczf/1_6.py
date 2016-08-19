@@ -6,6 +6,12 @@ def abc_one(s):
                     print i + j + k
 
 
+# 第二种是字典序排列，我能想到的只能是先排序再重复上面的过程
+def abc_two(s):
+    sort_s = sorted(s)
+    abc_one(sort_s)
+
+
 if __name__ == '__main__':
     s = raw_input()
     abc_one(s)
